@@ -20,6 +20,7 @@
 resolver:
   url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/26.yaml
 
+
 # User packages to be built.
 # Various formats can be used as shown in the example below.
 #
@@ -58,7 +59,8 @@ packages:
 # Override the architecture used by stack, especially useful on Windows
 # arch: i386
 # arch: x86_64
-#
+arch: aarch86
+
 # Extra directories used by stack for building
 # extra-include-dirs: [/path/to/dir]
 # extra-lib-dirs: [/path/to/dir]
